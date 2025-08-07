@@ -1,129 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Xuelei(Shelly) Peng's Portfolio</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <title>Xuelei(Shelly) Peng's Portfolio</title>
 
-    <!-- Custom CSS for the '3 Col Portfolio' Template -->
-    <link href="css/3-col-portfolio.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-  <body>
+  <!-- Custom CSS for the '3 Col Portfolio' Template -->
+  <link href="css/3-col-portfolio.css" rel="stylesheet">
+</head>
 
-    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Home</a>
-        </div>
-      </div><!-- /.container -->
-    </nav>
+<body>
 
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
-
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">Xuelei(Shelly) Peng's Portfolio <small>Work Showcase</small></h1>
-        </div>
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
       </div>
-      <div class="row">
+    </div><!-- /.container -->
+  </nav>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="shepherd_story.html"><img class="img-responsive" src="showcase_images/shepherd_story1.png"></a>
-          <h3><a href="shepherd_story.html">Shepherd Story - Manga Creator(牧羊故事——漫画生成器)</a></h3>
-          <p>First-ever manga generator that can generate consistent-looking, memorable characters. Generation speed excels commercial alternatives, with 16s per 4-panel page of manga, 4min per short manga chapter / 15-page manga. </p>
-          <p>首个能够生成长相一致，易被记住的角色的漫画生成器。其生成速度超越商业产品：每页4格漫画仅需16秒，每短篇漫画（15页）仅需4分钟。</p>
-        </div>
+  <div class="container">
 
-        <div class="col-md-4 portfolio-item">
-          <a href="chinese_text_project.html"><img class="img-responsive" src="showcase_images/baidu1.jpg"></a>
-          <h3><a href="chinese_text_project.html">Accurate Chinese Text Image Generator(精准中文字生图)</a></h3>
-          <p>Image generator that can generate accurate Chinese text, particularly useful in advertisement image generation, with higher text fidelity than all existing large models.</p>
-          <p>可以精准生成中文字的生图项目，特别适用于广告图的生成，中文字精度超过所有目前已有大模型。</p>
-        </div>
+    <div class="row">
 
-        <div class="col-md-4 portfolio-item">
-          <a href="anipack_project.html"><img class="img-responsive" src="showcase_images/AniPack_cover.png"></a>
-          <h3><a href="anipack_project.html">Personalized Anime Character Generator(动漫角色生成器)</a></h3>
-          <p>The first all-in-one-place anime character creator that allow users to create customized anime character with the consistent-looking,  character's images, audioes and videoes. User can use natural language to characterize the companion and chat with the companion.</p>
-          <p>一个可以生成长相一致且有不同姿态、角色视频、音频等的动漫角色生成器，无需DreamBooth的训练即可快速生成多样的、长相一致的动漫角色。可通过文字、图片等生成角色的图片/视频。用户可以通过自然语言定制角色的性格，并与其对话。为国内外第一个一站式动漫角色/伴侣定制器。</p>
-
-        </div>
+      <div class="col-lg-12">
+        <h1 class="page-header">Xuelei(Shelly) Peng's Portfolio <small>Work Showcase</small></h1>
       </div>
 
-      <div class="row">
+    </div>
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <a href="neoscholar_research_project.html"><img class="img-responsive" src="showcase_images/witch1.png"></a>
+        <h3><a href="neoscholar_research_project.html">Micro-master Research Project - Train-free SOTA-level Identity Preservation in Image Generation(微硕士学位研究项目 -
+    无需训练的SOTA水平的图像生成中的身份保持)</a></h3>
+        <p>Self-developed all technical contributions in an MPhil-level research project in image identity preservation. Supervised by: Prof. Jens Rittscher, Oxfor Univeristy. Benchmark results beats several top conference works(including those accepted by ICLR). Technicalities: UNet layer-specific feature blending, hierarchical blending routine,  temporal-aware blending, layerwise-strength fade-out algorithm, feature-shift-combating mechanisms, reference feature leakage prevention, cross-attention-semantic-map assisted masking.</p>
+        <p>一门硕士级别暑期科研课程，旨在完成一篇关于图像生成中参考对象身份维护的研究论文，独立负责全部科研产出。导师：Prof. Jens Rittscher, 牛津大学，取得了同一研究问题中顶级质量的成果， 基准测试结果超越多项顶会成果（如ICLR等）。技术涵盖：UNet layer-specific feature blending, hierarchical blending routine,  temporal-aware blending, layerwise-strength fade-out algorithm, feature-shift-combating mechanisms, reference feature leakage prevention, cross-attention-semantic-map assisted masking.</p>
+      </div>
 
-        
+      <div class="col-md-4 portfolio-item">
+        <a href="shepherd_story.html"><img class="img-responsive" src="showcase_images/shepherd_story1.png"></a>
+        <h3><a href="shepherd_story.html">Shepherd Story - Manga Creator(牧羊故事——漫画生成器)</a></h3>
+        <p>First-ever manga generator that can generate consistent-looking, memorable characters. Generation speed
+          excels commercial alternatives, with 16s per 4-panel page of manga, 4min per short manga chapter / 15-page
+          manga. </p>
+        <p>首个能够生成长相一致，易被记住的角色的漫画生成器。其生成速度超越商业产品：每页4格漫画仅需16秒，每短篇漫画（15页）仅需4分钟。</p>
+      </div>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="cartoon_mascot_project.html"><img class="img-responsive" src="showcase_images/cartoon_mascot8.png"></a>
-          <h3><a href="cartoon_mascot_project.html">2D Cartoon Mascot Generator(2D卡通吉祥物图像生成器)</a></h3>
-          <p>a cartoon mascot/animal image generator, that can generate varied, consistent-looking cartoon animals, trained with kohya_ss and DreamBooth. </p>
-          <p>一个可以生成多样的、长相一致的卡通动物的图片生成器，基于kohya_ss和DreamBooth训练。</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="virtual_people_project.html"><img class="img-responsive" src="showcase_images/virtual_people1.jpg"></a>
-          <h3><a href="virtual_people_project.html">Virtual People Portrait Generator(虚拟人物肖像生成器)</a></h3>
-          <p>a virtual people image generator, that generates consistent-looking, realistic people.</p>
-          <p>一个可以生成多样的、长相一致的虚拟数字人的肖像图片生成器。</p>
-        </div>
-
-        <div class="col-md-4 portfolio-item">
-          <a href="anycartoon_project.html"><img class="img-responsive" src="showcase_images/anycartoon_home.png"></a>
-          <h3><a href="anycartoon_project.html">2D Cartoon Image Generator(2D卡通图像生成器)</a></h3>
-          <p>an anime style cartoon image generator.</p>
-          <p>一个可以生成动漫风格的卡通图片生成器。</p>
-        </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="chinese_text_project.html"><img class="img-responsive" src="showcase_images/baidu1.jpg"></a>
+        <h3><a href="chinese_text_project.html">Accurate Chinese Text Image Generator(精准中文字生图)</a></h3>
+        <p>Image generator that can generate accurate Chinese text, particularly useful in advertisement image
+          generation, with higher text fidelity than all existing large models.</p>
+        <p>可以精准生成中文字的生图项目，特别适用于广告图的生成，中文字精度超过所有目前已有大模型。</p>
+      </div>
 
       </div>
-      <div class="row">
 
-        
+    <div class="row">
 
-        <div class="col-md-4 portfolio-item">
-          <a href="anysketch_project.html"><img class="img-responsive" src="showcase_images/anysketch1.png"></a>
-          <h3><a href="anysketch_project.html">AniSketch Sketch-to-Image Generator(草图转动漫精图生成器)</a></h3>
-          <p>a web application that uses ControlNet to generate refined, anime-style images from scribbles. Obtained free GPU usage for hosting where 7-8% of applicants were granted free GPU.</p>
-          <p>使用了ControlNet将手绘草图生成为精细的动漫风格图片，支持草图的实时绘画。支持中英双语。此项目成功获得Hugging Face公司的免费GPU使用权，使用权获得成功率为7-8%。</p>
-        </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="anipack_project.html"><img class="img-responsive" src="showcase_images/AniPack_cover.png"></a>
+        <h3><a href="anipack_project.html">Personalized Anime Character Generator(动漫角色生成器)</a></h3>
+        <p>The first all-in-one-place anime character creator that allow users to create customized anime character with
+          the consistent-looking, character's images, audioes and videoes. User can use natural language to characterize
+          the companion and chat with the companion.</p>
+        <p>
+          一个可以生成长相一致且有不同姿态、角色视频、音频等的动漫角色生成器，无需DreamBooth的训练即可快速生成多样的、长相一致的动漫角色。可通过文字、图片等生成角色的图片/视频。用户可以通过自然语言定制角色的性格，并与其对话。为国内外第一个一站式动漫角色/伴侣定制器。
+        </p>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="animefier_project.html"><img class="img-responsive" src="showcase_images/animefier1.png"></a>
-          <h3><a href="animefier_project.html">Animefier Image-to-Image Generator(动漫化真人图片生成器)</a></h3>
-          <p>a web application that uses ControlNet and Stable Diffusion models and Gradio that turns a realistic photo into one of an anime-style. Obtained free GPU usage for hosting from the hosting organisation where 7-8% of applicants were granted free GPU. </p>
-          <p>一个使用人工智能生成器将真实照片转变为动漫风格的图片的项目。支持中英双语。其质量与诸如Fotor等最佳商业替代品相媲美。此项目成功获得Hugging Face公司的免费GPU使用权，使用权获得成功率为7-8%。</p>
-        </div>
       </div>
-    
+
+       <div class="col-md-4 portfolio-item">
+        <a href="cartoon_mascot_project.html"><img class="img-responsive" src="showcase_images/cartoon_mascot8.png"></a>
+        <h3><a href="cartoon_mascot_project.html">2D Cartoon Mascot Generator(2D卡通吉祥物图像生成器)</a></h3>
+        <p>a cartoon mascot/animal image generator, that can generate varied, consistent-looking cartoon animals,
+          trained with kohya_ss and DreamBooth. </p>
+        <p>一个可以生成多样的、长相一致的卡通动物的图片生成器，基于kohya_ss和DreamBooth训练。</p>
+      </div>
+
+      <div class="col-md-4 portfolio-item">
+        <a href="virtual_people_project.html"><img class="img-responsive" src="showcase_images/virtual_people1.jpg"></a>
+        <h3><a href="virtual_people_project.html">Virtual People Portrait Generator(虚拟人物肖像生成器)</a></h3>
+        <p>a virtual people image generator, that generates consistent-looking, realistic people.</p>
+        <p>一个可以生成多样的、长相一致的虚拟数字人的肖像图片生成器。</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+
+
+     
+      <div class="col-md-4 portfolio-item">
+        <a href="anycartoon_project.html"><img class="img-responsive" src="showcase_images/anycartoon_home.png"></a>
+        <h3><a href="anycartoon_project.html">2D Cartoon Image Generator(2D卡通图像生成器)</a></h3>
+        <p>an anime style cartoon image generator.</p>
+        <p>一个可以生成动漫风格的卡通图片生成器。</p>
+      </div>
+
+      <div class="col-md-4 portfolio-item">
+        <a href="anysketch_project.html"><img class="img-responsive" src="showcase_images/anysketch1.png"></a>
+        <h3><a href="anysketch_project.html">AniSketch Sketch-to-Image Generator(草图转动漫精图生成器)</a></h3>
+        <p>a web application that uses ControlNet to generate refined, anime-style images from scribbles. Obtained free
+          GPU usage for hosting where 7-8% of applicants were granted free GPU.</p>
+        <p>使用了ControlNet将手绘草图生成为精细的动漫风格图片，支持草图的实时绘画。支持中英双语。此项目成功获得Hugging Face公司的免费GPU使用权，使用权获得成功率为7-8%。</p>
+      </div>
+
+      <div class="col-md-4 portfolio-item">
+        <a href="animefier_project.html"><img class="img-responsive" src="showcase_images/animefier1.png"></a>
+        <h3><a href="animefier_project.html">Animefier Image-to-Image Generator(动漫化真人图片生成器)</a></h3>
+        <p>a web application that uses ControlNet and Stable Diffusion models and Gradio that turns a realistic photo
+          into one of an anime-style. Obtained free GPU usage for hosting from the hosting organisation where 7-8% of
+          applicants were granted free GPU. </p>
+        <p>一个使用人工智能生成器将真实照片转变为动漫风格的图片的项目。支持中英双语。其质量与诸如Fotor等最佳商业替代品相媲美。此项目成功获得Hugging Face公司的免费GPU使用权，使用权获得成功率为7-8%。</p>
+      </div>
+
+    </div>
+    <div class="row">
+
+
+
       
 
-      <hr>
+      <div class="col-md-4 portfolio-item">
+        <a href="fyp.html"><img class="img-responsive" src="showcase_images/fyp_demo.png"></a>
+        <h3><a href="fyp.html">Top-tier International Conference Research Project - Train-free SOTA-level Cross-frame
+            Identity Preservation in
+            Video Generation(国际顶会研究项目 -
+            无需训练的SOTA水平的视频生成中的跨帧身份维护)</a></h3>
+        <p>solo contributor in SOTA-level cross-frame identity preservation in video generation; on submission to
+          top-tier conferences. Technicalities: harmonic attention injection with quadratic decay scheduling,
+          frame-dependent motion damping, stochastic-resonance-inspired smoothness disruption.</p>
+        <p>本科期间对标计算机视觉领域国际顶会（如 CVPR、ICLR等）的科研项目。独立开发的技术贡献在视频生成的跨帧身份一致性研究取得了SOTA性能。技术涵盖：harmonic attention injection with quadratic decay scheduling, frame-dependent motion damping, stochastic-resonance-inspired smoothness disruption.</p>
+      </div>
 
 
-    </div><!-- /.container -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
-  </body>
+    </div>
+
+
+
+    <hr>
+
+
+  </div><!-- /.container -->
+
+  <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+    var dt = new Date();
+    document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+  </script>
+</body>
 
 </html>
